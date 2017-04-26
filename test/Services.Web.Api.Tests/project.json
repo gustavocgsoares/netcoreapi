@@ -1,0 +1,49 @@
+{
+  "buildOptions": {
+    "additionalArguments": [
+      "/ruleset:../../items/.stylecop/StyleCopeRules.ruleset",
+      "/additionalfile:../../items/.stylecop/stylecop.json"
+    ],
+    "copyToOutput": {
+      "include": [ "appsettings.testing.json" ]
+    },
+    "warningsAsErrors": true
+  },
+  "dependencies": {
+    "Application.Model": "1.0.0-*",
+    "Domain": "1.0.0-*",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "FluentAssertions": "4.19.2",
+    "Microsoft.AspNet.WebApi.Client": "5.2.3",
+    "Microsoft.AspNetCore.TestHost": "1.1.1",
+    "Microsoft.CodeCoverage": "1.0.2",
+    "Microsoft.Extensions.Configuration.Json": "1.1.1",
+    "Microsoft.NETCore.App": "1.1.1",
+    "moq.netcore": "4.4.0-beta8",
+    "OpenCover": "4.6.519",
+    "OpenCoverToCoberturaConverter": "0.2.6",
+    "ReportGenerator": "2.5.6",
+    "Services.Web.Api": "1.0.0-*",
+    "StyleCop.Analyzers": "1.0.0",
+    "xunit": "2.2.0",
+    "xunit.runner.console": "2.2.0",
+    "xunit.runner.visualstudio": "2.2.0"
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+      },
+      "imports": [
+        "dnxcore50",
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  },
+    "runtimes": {
+        "win10-x64": {},
+        "win7-x64": {}
+    },
+  "testRunner": "xunit",
+  "version": "1.0.0-*"
+}

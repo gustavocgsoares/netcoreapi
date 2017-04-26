@@ -1,0 +1,35 @@
+{
+  "buildOptions": {
+    "additionalArguments": [
+      "/ruleset:../../items/.stylecop/StyleCopeRules.ruleset",
+      "/additionalfile:../../items/.stylecop/stylecop.json"
+    ],
+    "warningsAsErrors": true,
+    "xmlDoc": false
+  },
+  "dependencies": {
+    "CrossCutting": "1.0.0-*",
+    "Domain": "1.0.0-*",
+    "Microsoft.EntityFrameworkCore": "1.1.1",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
+    "Microsoft.EntityFrameworkCore.Tools": "1.1.0",
+    "Microsoft.NETCore.App": "1.1.1",
+    "StyleCop.Analyzers": "1.0.0",
+    "System.Reflection.TypeExtensions": "4.3.0",
+    "System.Threading.Tasks": "4.3.0"
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+      },
+      "imports": [
+        "dnxcore50",
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  },
+  "tools": {
+  },
+  "version": "1.0.0-*"
+}

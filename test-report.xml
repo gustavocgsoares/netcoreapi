@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="Services.Web.Api.Tests.dll" environment="64-bit .NET (unknown version) [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.2.0.3545" run-date="2017-04-24" run-time="17:57:35" total="9" passed="9" failed="0" skipped="0" time="5.291" errors="0">
+    <errors />
+    <collection total="9" passed="9" failed="0" skipped="0" name="TestContext" time="1.833">
+      <test name="Wido.Services.Web.Api.Tests.Controllers.UsersController.UpdateApi.UpdateApiTests.Should_return_success_with_right_data_sent" type="Wido.Services.Web.Api.Tests.Controllers.UsersController.UpdateApi.UpdateApiTests" method="Should_return_success_with_right_data_sent" time="1.3322384" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="User Update" />
+          <trait name="Controller" value="Users" />
+        </traits>
+      </test>
+      <test name="Wido.Services.Web.Api.Tests.Controllers.UsersController.GetByIdApi.GetByIdApiTests.Should_return_the_user_data_found" type="Wido.Services.Web.Api.Tests.Controllers.UsersController.GetByIdApi.GetByIdApiTests" method="Should_return_the_user_data_found" time="0.1419001" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="User Get by Id" />
+          <trait name="Controller" value="Users" />
+        </traits>
+      </test>
+      <test name="Wido.Services.Web.Api.Tests.Controllers.UsersController.DeleteApi.DeleteApiTests.Should_return_success_with_right_data_sent" type="Wido.Services.Web.Api.Tests.Controllers.UsersController.DeleteApi.DeleteApiTests" method="Should_return_success_with_right_data_sent" time="0.1604211" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="User Delete" />
+          <trait name="Controller" value="Users" />
+        </traits>
+      </test>
+      <test name="Wido.Services.Web.Api.Tests.Controllers.UsersController.CreateApi.CreateApiTests.Should_return_user_created_with_right_data_sent" type="Wido.Services.Web.Api.Tests.Controllers.UsersController.CreateApi.CreateApiTests" method="Should_return_user_created_with_right_data_sent" time="0.0825791" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="User Create" />
+          <trait name="Controller" value="Users" />
+        </traits>
+      </test>
+      <test name="Wido.Services.Web.Api.Tests.Controllers.UsersController.CreateApi.CreateApiTests.Should_return_error_when_user_email_already_exists" type="Wido.Services.Web.Api.Tests.Controllers.UsersController.CreateApi.CreateApiTests" method="Should_return_error_when_user_email_already_exists" time="0.0309413" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="User Create" />
+          <trait name="Controller" value="Users" />
+        </traits>
+      </test>
+      <test name="Wido.Services.Web.Api.Tests.Controllers.LoginController.LoginApi.LoginApiTests.Should_return_the_link_to_get_logged_user_data" type="Wido.Services.Web.Api.Tests.Controllers.LoginController.LoginApi.LoginApiTests" method="Should_return_the_link_to_get_logged_user_data" time="0.0385462" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="Login" />
+          <trait name="Controller" value="Login" />
+        </traits>
+      </test>
+      <test name="Wido.Services.Web.Api.Tests.Controllers.LoginController.ChangePasswordApi.ChangePasswordApiTests.Should_return_success_with_right_data_sent" type="Wido.Services.Web.Api.Tests.Controllers.LoginController.ChangePasswordApi.ChangePasswordApiTests" method="Should_return_success_with_right_data_sent" time="0.0345208" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="Change Password" />
+          <trait name="Controller" value="Login" />
+        </traits>
+      </test>
+      <test name="Wido.Services.Web.Api.Tests.Controllers.LoginController.ChangePasswordApi.ChangePasswordApiTests.Should_return_error_when_user_not_exists" type="Wido.Services.Web.Api.Tests.Controllers.LoginController.ChangePasswordApi.ChangePasswordApiTests" method="Should_return_error_when_user_not_exists" time="0.0081174" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="Change Password" />
+          <trait name="Controller" value="Login" />
+        </traits>
+      </test>
+      <test name="Wido.Services.Web.Api.Tests.Controllers.LoginController.ChangePasswordApi.ChangePasswordApiTests.Should_return_error_when_new_pass_is_different_from_the_confirmation" type="Wido.Services.Web.Api.Tests.Controllers.LoginController.ChangePasswordApi.ChangePasswordApiTests" method="Should_return_error_when_new_pass_is_different_from_the_confirmation" time="0.0040913" result="Pass">
+        <traits>
+          <trait name="CI" value="" />
+          <trait name="Api" value="Change Password" />
+          <trait name="Controller" value="Login" />
+        </traits>
+      </test>
+    </collection>
+  </assembly>
+</assemblies>

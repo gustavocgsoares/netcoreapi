@@ -1,0 +1,28 @@
+{
+  "buildOptions": {
+    "additionalArguments": [
+      "/ruleset:../../items/.stylecop/StyleCopeRules.ruleset",
+      "/additionalfile:../../items/.stylecop/stylecop.json"
+    ],
+    "warningsAsErrors": true,
+    "xmlDoc": false
+  },
+  "dependencies": {
+    "CrossCutting": "1.0.0-*",
+    "Domain": "1.0.0-*",
+    "Microsoft.NETCore.App": "1.1.1",
+    "StyleCop.Analyzers": "1.0.0"
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+      },
+      "imports": [
+        "dnxcore50",
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  },
+  "version": "1.0.0-*"
+}

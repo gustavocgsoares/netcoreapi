@@ -1,0 +1,7 @@
+﻿{
+  "code": "00001",
+  "message": "Parameters are invalid or incorrect:",
+  "validations": [
+    "id cannot be null."
+  ]
+}
